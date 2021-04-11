@@ -8,9 +8,9 @@
 # URL VARIABLES
 #
 # site domain, full URL to the production location of your collection
-url: https://www.lib.uidaho.edu
+url: https://pages.uoregon.edu/
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /demo
+baseurl: /cew/IHL
 # location of code, the full url to your github repository
 source-code: https://github.com/CollectionBuilder/collectionbuilder-sa
 
@@ -20,18 +20,18 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-sa
 # title of site appears in banner
 title: IHL_SA_Draft_1
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Digital Collection Magic with Static Web Technologies
+tagline: IHL tagline -- Japanese prints etc.
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "CollectionBuilder-SA is a template for creating digital collection exhibits using static web technology."
+description: "distillation of data from original myjapanesehanga website"
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: idaho;history;inland northwest
+keywords: japanese;woodblock;ukiyo-e;myjapanesehanga
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: CollectionBuilder
+author: creator/author credits here
 # Organization branding
-organization-name: "Digital Initiatives, University of Idaho Library"
-organization-link: https://www.lib.uidaho.edu/digital/
-organization-logo-banner: https://www.lib.uidaho.edu/media/digital/justdi_logo_sm.png
+organization-name: "Jordan Schnitzer Museum of Art, University of Oregon"
+organization-link: https://jsma.uoregon.edu/
+organization-logo-banner: https://jsma.uoregon.edu/sites/all/themes/responsive/logo.png
 organization-logo-nav: https://www.lib.uidaho.edu/media/digital/bannerlogo_allwhite.png
 
 ##########
@@ -64,7 +64,7 @@ page_gen:
 # ROBOTS EXCLUDE
 #
 # set noindex to true if you do NOT want Google to index your site
-# noindex: true 
+noindex: true 
 
 ##########
 # BUILD SETTINGS 
