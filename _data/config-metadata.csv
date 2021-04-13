@@ -4,13 +4,13 @@ creator,Creator,,DCTERMS.creator,creator
 date,Date Created,,DCTERMS.created,dateCreated
 description,Description,,DCTERMS.description,description
 subject,Subjects,true,DCTERMS.subject,keywords
-cew_metadata_table 5,data_4
-cew_metadata_table 6,data_5
-cew_metadata_table 7,data_6
-cew_metadata_table 8,data_7
-cew_metadata_table 9,data_8
-cew_metadata_table 10,data_9
-location,Location,,,contentLocation
+cew_metadata_table 5,_
+cew_metadata_table 6,_
+cew_metadata_table 7,_
+cew_metadata_table 8,_
+cew_metadata_table 9,_
+cew_metadata_table 10,_
+location,Topic Location,,,contentLocation
 latitude,Latitude
 longitude,Longitude
 source,Source
