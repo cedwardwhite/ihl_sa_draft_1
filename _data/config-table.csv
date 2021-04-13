@@ -9,13 +9,13 @@ print_link,myjapanesehanga link
 text,Creator 
 catalog,Catalog number 
 page_header,Expanded-title-check-this
-cew_metadata_table 2,data_1
-cew_metadata_table 3,data_2
-cew_metadata_table 4,data_3
-cew_metadata_table 5,data_4
-cew_metadata_table 6,data_5
-cew_metadata_table 7,data_6
-cew_metadata_table 8,data_7
+cew_metadata_table2,data_1
+cew_metadata_table3,data_2
+cew_metadata_table4,data_3
+cew_metadata_table5,data_4
+cew_metadata_table6,data_5
+cew_metadata_table7,data_6
+cew_metadata_table8,data_7
 cew_metadata_table9,data_8
 cew_metadata_table10,data_9
 cew_metadata_table11,data_10
