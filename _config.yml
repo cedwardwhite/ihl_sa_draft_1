@@ -18,9 +18,9 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-sa
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: IHL_SA_Draft_1
+title: My Japanese Hanga Collection
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: IHL tagline -- Japanese prints etc.
+tagline: Collection of Irwin Lavenberg: Japanese prints
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
 description: "distillation of data from original myjapanesehanga website"
