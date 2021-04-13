@@ -23,7 +23,7 @@ title: My Japanese Hanga Collection
 tagline: Collection of Irwin Lavenberg - Japanese prints
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "distillation of data from original myjapanesehanga website"
+description: <a href="http://www.myjapanesehanga.com/">A distillation of data from original myjapanesehanga.com website</a>
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: japanese;woodblock;ukiyo-e;myjapanesehanga
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name

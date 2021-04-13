@@ -14,7 +14,7 @@ permalink: /about.html
 
 {{ site.description | default: site.tagline}}
 
-The above is default information generated from the site description. If you would like to learn more about 
+This site is a copy (whoever imperfect) of the original myjapanesehanga.com site authored by collector, Irwin Lavenberg.  The information in the site was collected from the original and reformatted for use in this site and the University of Oregon's museum.
 
 <!-- IMPORTANT!!! DELETE everything below this comment (and this comment) when you are finished editing this page for your collection. The included file below includes instructions for inserting features into your about page. They will show up on your collection's about page until you delete it.  -->
 {% include feature/abouttheabout.md %}
