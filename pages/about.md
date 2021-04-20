@@ -8,13 +8,11 @@ permalink: /about.html
 
 {% include feature/jumbotron.html %} 
 
-{% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
+{% include feature/nav-menu.html sections="About the Collection" %}
 
 ## About the Collection
 
 {{ site.description | default: site.tagline}}
 
-This site is a copy (whoever imperfect) of the original myjapanesehanga.com site authored by collector, Irwin Lavenberg.  The information in the site was collected from the original and reformatted for use in this site and the University of Oregon's museum.
+This site is a copy (however imperfect) of the original myjapanesehanga.com site authored by collector, Irwin Lavenberg.  The information in the site was collected from the original and reformatted for use in this site and the University of Oregon's fine art museum, the Jordan Schnitzer Museum of Art.
 
-<!-- IMPORTANT!!! DELETE everything below this comment (and this comment) when you are finished editing this page for your collection. The included file below includes instructions for inserting features into your about page. They will show up on your collection's about page until you delete it.  -->
-{% include feature/abouttheabout.md %}

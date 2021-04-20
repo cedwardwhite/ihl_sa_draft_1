@@ -7,6 +7,10 @@ subject,true,true
 location,true,false
 catalog,true,true
 page_header,true,true
+cew_metadata_table1,true,true
+cew_metadata_table2,true,true
+cew_metadata_table3,true,true
+cew_metadata_table4,true,true
 cew_metadata_table5,true,true
 cew_metadata_table6,true,true
 cew_metadata_table7,true,true
