@@ -3,7 +3,7 @@ layout: default
 # gallery: true 
 --- 
 
-{% assign display_fields = "date,status,link,text" | split: "," %}
+{% assign display_fields = "date,status,link,text,cew_bio_html" | split: "," %}
 {% comment %} get related print records from main metadata based on artistid {% endcomment %}
 {% assign prints = site.data[site.metadata] | where: "artistid",page.artistid %}
 
