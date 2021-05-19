@@ -2,10 +2,8 @@
 layout: default 
 # gallery: true 
 --- 
-
-{% assign display_fields = "date,status,link,text,cew_bio_html" | split: "," %}
 {% comment %} get related print records from main metadata based on artistid {% endcomment %}
-{% assign prints = site.data[site.metadata] | where: "artistid",page.artistid %}
+{% assign prints = site.data[site.metadata] | where: "artistid",page.objectid %}
 
 <div class="container py-3">
     <ul class="breadcrumb">
@@ -14,31 +12,40 @@ layout: default
         <li class="breadcrumb-item active">{{ page.title | truncatewords: 10 }}</li>
     </ul>
 
-    <div class="row">
-
-        <div class="col-md-6">
-            <h1>{{ page.title }}</h1>
-            {% for f in display_fields %}
-            <div><strong>{{ f }}:</strong><br>
-                {{ page[f] }}
-            </div>
-            {% endfor %}
+    <div class="my-4">
+        <h1>{{ page.title }}</h1>
+        <div class="alert alert-primary" >
+            <strong>Date:</strong> {{ page.date }} <br>
+            <strong>Status:</strong> {{ page.status }} <br>
+            <strong>MyJapaneseHanga Link:</strong> <a href="{{ page.link_original }}" >{{ page.link_original }}</a>
         </div>
-            
-        <div class="col-md-6" id="lightgallery">
-            <div class="card mb-4 text-center">
+        
+    </div>
 
-                {% for p in prints %}
-                <figure class="figure mx-3">
-                    <a href="{{ '/items/' | append: p.objectid | append: '.html' | relative_url }}">
-                        <img class="figure-img img-fluid rounded" alt="{{ p.title | escape }}" src="{{ site.objects | absolute_url }}/small/{{ p.filename | downcase | split: '.' | first }}_sm.jpg" >
-                        <figcaption class="figure-caption">{{ p.title }}</figcaption>
-                    </a>
-                </figure> 
-                {% endfor %}
+    <div class="card mb-4 text-center">
+        <h2>Prints in Collection</h2>
 
-            </div>
+        <div class="row">
+
+        {% for p in prints %}
+        <div class="col-md-4">
+            <figure class="figure mx-3">
+                <a href="{{ '/items/' | append: p.objectid | append: '.html' | relative_url }}">
+                    <img class="figure-img img-fluid rounded" alt="{{ p.title | escape }}" src="{{ site.objects | absolute_url }}/small/{{ p.filename | downcase | split: '.' | first }}_sm.jpg" >
+                    <figcaption class="figure-caption">{{ p.title }}</figcaption>
+                </a>
+            </figure> 
         </div>
+        {% endfor %}
+
+        </div>
+
+    </div>
+
+    <div class="mb-4">
+        <h2>About {{ page.title }}</h2>
+
+        {{ page.bio_html }}
 
     </div>
 

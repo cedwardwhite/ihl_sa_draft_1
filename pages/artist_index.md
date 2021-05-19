@@ -12,4 +12,4 @@ Artist Listing (family name precedes given name)
 
 {% assign artists = site.data.artist-metadata %}
 {% for a in artists %}
-- [{{ a.title }}]({{ '/artists/' | append: a.artistid | append: ".html" | relative_url }}) ({{ a.date }}){% endfor %}
+- [{{ a.title }}]({{ '/artists/' | append: a.objectid | append: ".html" | relative_url }}) ({{ a.date }}){% endfor %}

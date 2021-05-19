@@ -55,8 +55,7 @@ page_gen:
     template: 'artist'
     name: 'objectid'
     dir: 'artists'
-    extension: 'html' 
-    filter: 'objectid'     
+    extension: 'html'
 
 ##########
 # GOOGLE SERVICES [optional!]
