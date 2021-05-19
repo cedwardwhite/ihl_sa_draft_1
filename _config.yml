@@ -51,11 +51,12 @@ page_gen:
     dir: 'items'
     extension: 'html' 
     filter: 'objectid' 
-
-# collections config
-collections:
-  artists:
-    output: true
+  - data: 'artist-metadata'
+    template: 'artists'
+    name: 'objectid'
+    dir: 'artists'
+    extension: 'html' 
+    filter: 'objectid'     
 
 ##########
 # GOOGLE SERVICES [optional!]
