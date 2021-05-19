@@ -50,12 +50,7 @@ page_gen:
     name: 'objectid'
     dir: 'items'
     extension: 'html' 
-    filter: 'objectid'
-    data: 'artist-metadata'
-    template: 'artists'
-    name: 'artistid'
-    dir: 'artists'
-    extension: 'html'  
+    filter: 'objectid' 
 
 # collections config
 collections:
