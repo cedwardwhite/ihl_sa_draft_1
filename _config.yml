@@ -46,13 +46,13 @@ metadata: demo-metadata
 # "data" value must be the name of the metadata file (other values should be not be changed)
 page_gen:
   - data: 'demo-metadata'
-    template: 'items'
+    template: 'item'
     name: 'objectid'
     dir: 'items'
     extension: 'html' 
     filter: 'objectid' 
   - data: 'artist-metadata'
-    template: 'artists'
+    template: 'artist'
     name: 'objectid'
     dir: 'artists'
     extension: 'html' 
