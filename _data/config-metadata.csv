@@ -4,7 +4,7 @@ creator,Creator,,DCTERMS.creator,creator
 date,Date Created,,DCTERMS.created,dateCreated
 description,Description,,DCTERMS.description,description
 subject,Subjects,true,DCTERMS.subject,keywords
-ihl_catalog,IHL Catalog
+catalog,IHL Catalog No.
 title,Title or Description
 series,Series
 artist,Artist
