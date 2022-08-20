@@ -4,6 +4,7 @@ creator,Creator,,DCTERMS.creator,creator
 date_text,Narrative Date
 date,Date Created,,DCTERMS.created,dateCreated
 description,Description,,DCTERMS.description,description
+print_link,Myjapanesehanga.com Reference or other external link
 subject,Subjects,true,DCTERMS.subject,keywords
 genre,Genre
 catalog,IHL Catalog No.
