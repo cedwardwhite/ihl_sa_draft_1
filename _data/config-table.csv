@@ -1,6 +1,6 @@
 field,display_name
 title,title
-publication_date_messy,object dates
+date_text,object dates
 creator,artist/creator
 description,description
 carver,carver
@@ -16,7 +16,7 @@ collections,collections
 impression_quality,impression quality
 lit//ref lit,literature reference
 location,location (scene or publication)
-date_text,object dates_2
+date_first_issued,date first issued
 publisher,publisher
 seal,seal
 series,series
