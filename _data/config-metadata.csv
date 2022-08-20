@@ -1,9 +1,11 @@
 field,display_name,browse_link,dc_map,schema_map
 title,Title,,DCTERMS.title,headline
 creator,Creator,,DCTERMS.creator,creator
+date_text,Date_narrative
 date,Date Created,,DCTERMS.created,dateCreated
 description,Description,,DCTERMS.description,description
 subject,Subjects,true,DCTERMS.subject,keywords
+genre,Genre
 catalog,IHL Catalog No.
 title,Title or Description
 series,Series
@@ -21,7 +23,6 @@ impression,Impression
 colors,Colors
 condition,Condition
 plate_making,Plate Making and Color Separation
-genre,Genre
 misc,Miscellaneous
 format ,Format
 h_w_paper,H x W Paper
