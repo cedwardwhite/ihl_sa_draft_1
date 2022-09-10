@@ -21,16 +21,14 @@ printing_date,Printing Date
 carver,Carver
 printer,Printer
 impression,Impression
-colors,Colors
 condition,Condition
+format_print,Format
+size_sheet,Sheet Size
+size_image,Image Size
 plate_making,Plate Making and Color Separation
 misc,Miscellaneous
-format ,Format
-h_w_paper,H x W Paper
-h_w_image,H x W Image
-h_w_mounting_paper,H x W Mounting Paper
-reference_literature,Reference Literature
-collections_this_work,Collections This Work
+lit_ref,Reference Literature
+collections,Collections This Work
 location,Topic Location,,,contentLocation
 latitude,Latitude
 longitude,Longitude
