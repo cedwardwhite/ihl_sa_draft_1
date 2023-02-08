@@ -63,7 +63,8 @@ page_gen:
 #
 # leave these blank or comment out to NOT include google code
 # if present, used to add analytics during "production" build only
-google-analytics-id: "G-137M79R0F5"
+google-analytics-id: "G-9WFLCDM9BZ"
+#g-tag used to be "G-137M79R0F5" - cew 20220911
 # google-cse-id: "002151703305773322890:1pu3smhw1t8"
 
 ##########
