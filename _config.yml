@@ -52,11 +52,11 @@ page_gen:
     extension: 'html' 
     filter: 'objectid'
   - data: 'artist-metadata'
-    template: 'artist'
+    template: 'artist'  
     name: 'objectid'
     dir: 'artists'
     extension: 'html'
-    filter: 'objectid'
+    #filter: 'objectid' #cew added this based on EW's 5/19/21 edit.  Does this create the "link" between the artist and objects?-commented out.
 
 
 ##########
