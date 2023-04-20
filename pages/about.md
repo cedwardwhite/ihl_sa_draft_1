@@ -14,5 +14,5 @@ permalink: /about.html
 
 {{ site.description | default: site.tagline}}
 
-This site is a copy (however imperfect) of the original myjapanesehanga.com site authored by collector, Irwin Lavenberg.  The information in the site was collected from the original and reformatted for use in this site and the University of Oregon's fine art museum, the Jordan Schnitzer Museum of Art.
+This site is a continued development of the original myjapanesehanga.com site authored by collector, Irwin Lavenberg.  The information in the site was collected from the original, reformatted and augmented for use in this site and the University of Oregon's fine art museum, the Jordan Schnitzer Museum of Art.
 
