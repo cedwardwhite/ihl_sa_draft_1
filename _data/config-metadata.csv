@@ -5,7 +5,7 @@ creator,Creator,,DCTERMS.creator,creator
 author,Author
 editor,Editor
 date_text,Narrative Date
-date,Earliest Date Created or Published,,DCTERMS.created,dateCreated
+date,Earliest Date of Creation or Publication,,DCTERMS.created,dateCreated
 description,Description,,DCTERMS.description,description
 print_link,Myjapanesehanga.com Reference or other external link
 subject,Subjects,true,DCTERMS.subject,keywords
