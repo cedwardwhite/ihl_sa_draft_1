@@ -25,10 +25,10 @@ layout: page
 
 {{ content }}
 
-<!--this is the original script for reference - cew
+
     <h3><a href="#{{ uniqueYears | first }}">{{ uniqueYears | first }}</a> to <a href="#{{ uniqueYears | last }}">{{ uniqueYears | last }}</a></h3>
-  -->  
-<h3>1795 to <a href="#{{ uniqueYears | last }}">{{ uniqueYears | last }}</a></h3>
+ 
+
 
 <table id="timeline" class="table table-striped">
     {% for year in uniqueYears %}
