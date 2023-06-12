@@ -69,7 +69,6 @@ gallery: true
                         {% elsif f.external_link == "true" %}
                         <a href="{{ page[f.field] }}" target="_blank" rel="noopener">{{ page[f.field] }}</a>
                         {% else %}
-                        {% else %}
                         {{ page[f.field] | replace: '""','"' }}{% endif %}
                     </dd>
                     {% endif %}{% endfor %}
