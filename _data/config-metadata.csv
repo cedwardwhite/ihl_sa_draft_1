@@ -1,15 +1,15 @@
-field,display_name,browse_link,dc_map,schema_map
-title,Title,,DCTERMS.title,headline
+field,display_name,browse_link,external_link,dc_map,schema_map
+title,Title,,,DCTERMS.title,headline
 series,Series
-creator,Creator,,DCTERMS.creator,creator
+creator,Creator,,,DCTERMS.creator,creator
 author,Author
 editor,Editor
 date_text,Narrative Date
-date,Earliest Date of Creation or Publication,,DCTERMS.created,dateCreated
-description,Description,,DCTERMS.description,description
+date,Earliest Date of Creation or Publication,,,DCTERMS.created,dateCreated
+description,Description,,,DCTERMS.description,description
 print_link,Myjapanesehanga.com Reference or other external link
 jsma_cat_link,This work is in the JSMA's collections and also published here
-subject,Subjects,true,DCTERMS.subject,keywords
+subject,Subjects,true,,DCTERMS.subject,keywords
 genre,Genre
 catalog,IHL Catalog No.
 artist,Artist
@@ -31,11 +31,11 @@ plate_making,Plate Making and Color Separation
 misc,Miscellaneous
 lit_ref,Reference Literature
 collections,Collections This Work
-location,Topic Location,,,contentLocation
+location,Topic Location,,,,contentLocation
 latitude,Latitude
 longitude,Longitude
 source,Source
 identifier,Source Identifier
-type,,,DCTERMS.type
-format,,,,encodingFormat
-rightsstatement,,,DCTERMS.rights,license
+type,,,,DCTERMS.type
+format,,,,,encodingFormat
+rightsstatement,,,,DCTERMS.rights,license

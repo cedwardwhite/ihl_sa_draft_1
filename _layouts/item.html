@@ -66,6 +66,9 @@ gallery: true
                         {% for t in topics %}
                         <a class="mr-3" href="{{ t | strip | url_param_escape | prepend: '/browse.html#' | relative_url }}">{{ t | strip }}</a>
                         {% endfor %}
+                        {% elsif f.external_link == "true" %}
+                        <a href="{{ page[f.field] }}" target="_blank" rel="noopener">{{ page[f.field] }}</a>
+                        {% else %}
                         {% else %}
                         {{ page[f.field] | replace: '""','"' }}{% endif %}
                     </dd>
